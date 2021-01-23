@@ -20,3 +20,19 @@ from employees
 where hire_date >= '1986-01-01'
 and hire_date <= '1986-12-31'
 order by 3;
+
+
+
+-- List the manager of each department with the following information:
+-- department number, department name, the manager's employee number, last name, first name
+select 
+dept_manager.dept_no,
+departments.dept_name,
+dept_manager.emp_no,
+employees.last_name,
+employees.first_name
+from dept_manager
+join departments on
+dept_manager.dept_no = departments.dept_no
+join employees on
+dept_manager.emp_no = employees.emp_no;
