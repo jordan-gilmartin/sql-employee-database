@@ -103,9 +103,6 @@ order by 2;
 -- 8. In descending order, list the frequency count of employee last names,
 -- i.e., how many employees share each last name
 select last_name, count(*) as freqcount
-
 from employees
-
-group by last_name having count (*)>1
-
+group by last_name having count(*)>1
 order by 2;
