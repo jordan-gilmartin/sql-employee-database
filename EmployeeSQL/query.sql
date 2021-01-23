@@ -62,3 +62,20 @@ from employees
 where first_name = 'Hercules'
 and last_name like 'B%'
 order by 2;
+
+
+
+-- 6. List all employees in the Sales department, including their 
+-- employee number, last name, first name, and department name
+select 
+employees.emp_no,
+employees.last_name,
+employees.first_name,
+departments.dept_name
+from employees
+join dept_emp on
+employees.emp_no = dept_emp.emp_no
+join departments on
+departments.dept_no = dept_emp.dept_no
+where dept_emp.dept_no = 'd007'
+order by 4;
