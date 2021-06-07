@@ -22,6 +22,8 @@ For the Data Analysis portion I conducted the following analysis:
 
 3. List the manager of each department with the following information:  department number, department name, the manager's employee number, last  name, first name.
 
+   ![sqlcodeblock3](Images/sqlcodeblock3.png)
+
 4. List the department of each employee with the following information:  employee number, last name, first name, and department name.
 
 5. List first name, last name, and sex for employees whose first name is "Hercules" and last names begin with "B."
