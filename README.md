@@ -38,4 +38,8 @@ For the Data Analysis portion I conducted the following analysis:
 
 7. List all employees in the Sales and Development departments,  including their employee number, last name, first name, and department  name.
 
+   ![sqlcodeblock7](Images/sqlcodeblock7.png)
+
 8. In descending order, list the frequency count of employee last names, i.e., how many employees share each last name.
+
+   ![sqlcodeblock8](Images/sqlcodeblock8.png)
