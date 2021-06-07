@@ -18,6 +18,8 @@ For the Data Analysis portion I conducted the following analysis:
 
 2. List first name, last name, and hire date for employees who were hired in 1986.
 
+   ![sqlcodeblock2](Images/sqlcodeblock2.png)
+
 3. List the manager of each department with the following information:  department number, department name, the manager's employee number, last  name, first name.
 
 4. List the department of each employee with the following information:  employee number, last name, first name, and department name.
